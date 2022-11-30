@@ -9,7 +9,7 @@
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.3.2">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.3.2">
     
     
       
@@ -450,6 +450,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../argo-workflows/" class="md-nav__link">
+        Argo Workflows
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../argocd/" class="md-nav__link">
         ArgoCD
       </a>
@@ -644,6 +658,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../cert-manager-istio-csr/" class="md-nav__link">
+        cert-manager-istio-csr
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../cert-manager/" class="md-nav__link">
         cert-manager
       </a>
@@ -714,6 +742,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../consul/" class="md-nav__link">
+        Consul
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../crossplane/" class="md-nav__link">
         Crossplane
       </a>
@@ -730,6 +772,20 @@
     <li class="md-nav__item">
       <a href="../csi-secrets-store-provider-aws/" class="md-nav__link">
         secrets-store-csi-driver-provider-aws
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../datadog-operator/" class="md-nav__link">
+        Datadog Operator
       </a>
     </li>
   
@@ -800,6 +856,20 @@
     <li class="md-nav__item">
       <a href="../grafana/" class="md-nav__link">
         Grafana
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kafka/" class="md-nav__link">
+        Strimzi Operator for Apache Kafka
       </a>
     </li>
   
@@ -910,6 +980,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../kyverno/" class="md-nav__link">
+        Kyverno
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../local-volume-provisioner/" class="md-nav__link">
         Local volume provisioner
       </a>
@@ -954,6 +1038,34 @@
     <li class="md-nav__item">
       <a href="../nginx/" class="md-nav__link">
         Nginx
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nvidia-device-plugin/" class="md-nav__link">
+        NVIDIA Device Plugin
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../portworx/" class="md-nav__link">
+        Portworx add-on for EKS Blueprints
       </a>
     </li>
   
@@ -1365,7 +1477,7 @@ efs-csi-node   <span class="m">3</span>         <span class="m">3</span>        
 <p>The following is configured to ArgoCD App of Apps for this Add-on.</p>
 <div class="highlight"><pre><span></span><code>  argocd_gitops_config = {
     enable             = true
-    serviceAccountName = local.service_account_name
+    serviceAccountName = local.service_account
   }
 </code></pre></div>
 
